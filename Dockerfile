@@ -1,4 +1,4 @@
-FROM amazoncorretto:20-alpine-jdk
+FROM amazoncorretto:18-alpine-jdk
 
 COPY target/Backend-0.0.1-SNAPSHOT.jar app.jar
 
